@@ -1,0 +1,60 @@
+
+body {
+  background: #015b8f;
+}
+
+.container {
+  background: #015b8f;
+}
+
+.row {
+  margin-top: 3%;
+}
+
+.button {
+  font-family: sans-serif;
+  font-weight: 300;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  margin: 1em 0 2.5em 0;
+}
+.button:hover, .button:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.name-holder {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 5em;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: .05em;
+  padding: .5em;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.second {
+  margin-left: .25em;
+}
+
+.top {
+  font-size: 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 490px) {
+  .removeCreative {
+    top: -3.25em;
+    margin-bottom: -3em;
+  }
+
+  .first, .second, .remove {
+    font-size: 50px;
+  }
+}
